@@ -9,11 +9,13 @@ import { FooterComponent } from './footer/footer.component';
   selector: 'app-root',
   template: `
     <app-header></app-header>
-    <app-scrolldiv
-      [newsList]="newsList"
-      (selectNews)="selectNews($event)"
-    ></app-scrolldiv>
-    <app-details [selectedNews]="selectedNews"></app-details>
+    <div class="flex">
+      <app-scrolldiv
+        [newsList]="newsList"
+        (selectNews)="selectNews($event)"
+      ></app-scrolldiv>
+      <app-details [selectedNews]="selectedNews"></app-details>
+    </div>
     <app-footer></app-footer>
   `,
   styleUrls: ['./app.component.css'],

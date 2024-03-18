@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.news-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.news-item h2 {
+  margin-top: 0;
+}
+
+.news-item p {
+  margin-bottom: 10px;
+}
+
+.news-item hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.scrolldiv {
+  height: 200px;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+}
