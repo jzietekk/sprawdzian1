@@ -1,0 +1,7 @@
+<app-header></app-header>
+<app-scrolldiv
+  [newsList]="newsList"
+  (selectNews)="selectNews($event)"
+></app-scrolldiv>
+<app-details [selectedNews]="selectedNews"></app-details>
+<app-footer></app-footer>
